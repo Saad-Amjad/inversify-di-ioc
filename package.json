@@ -1,0 +1,20 @@
+{
+  "name": "inversify-di",
+  "version": "1.0.0",
+  "description": "demo for di and ioc",
+  "main": "index.js",
+  "author": "Saad",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc && node dist/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.1",
+    "express": "^4.17.1",
+    "inversify": "^5.0.1",
+    "reflect-metadata": "^0.1.13",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.3"
+  }
+}
